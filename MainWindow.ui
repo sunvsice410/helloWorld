@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>988</width>
+    <height>711</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>988</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>9</y>
+     <width>871</width>
+     <height>651</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>94</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>LoginSend</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="text">
+       <string>RCHornFlashCmd</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Connect</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>SvtCmdCancel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Disconnect</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>LogoutSend</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>SVTCmdSend</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="text">
+       <string>RCACCmd</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>LogoutSend_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>164</x>
+     <y>94</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>LoginSend_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>131</x>
+     <y>12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>SVTCmdSend_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>142</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>Connect_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>153</x>
+     <y>50</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>SvtCmdCancel_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>Disconnect_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>247</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>RCHornFlashCmd_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>30</x>
+     <y>285</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>42</x>
+     <y>429</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>RCACCmd_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>327</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>85</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>LogoutSend_click()</slot>
+  <slot>LoginSend_click()</slot>
+  <slot>SVTCmdSend_click()</slot>
+  <slot>Connect_click()</slot>
+  <slot>SvtCmdCancel_click()</slot>
+  <slot>Disconnect_click()</slot>
+  <slot>RCHornFlashCmd_click()</slot>
+  <slot>RCACCmd_click()</slot>
+ </slots>
+</ui>
